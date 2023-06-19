@@ -10,7 +10,7 @@ function Latest(props) {
             <div className="frontPP">
 
                 <img className="front" src={data1[94].urlToImage} alt="" />
-                {/* <img className="front" src={data1[94].urlToImage} alt="Image Loading..." /> */}
+                {/* <img className="front" src={data1[94].urlToImage} alt="Image Loading" /> */}
                 <Link to={`/NPage/${data1[94].title}`} state={data1[94]}>
                     <h3 >{data1[94].title}</h3>
                 </Link>
@@ -20,7 +20,7 @@ function Latest(props) {
             <div className="frontPP">
 
                 <img className="front" src={data2[10].urlToImage} alt="" />
-                {/* <img className="front" src={data2[10].urlToImage} alt="Image Loading..." /> */}
+                {/* <img className="front" src={data2[10].urlToImage} alt="Image Loading" /> */}
                 <Link to={`/NPage/${data2[10].title}`} state={data2[10]}>
                     <h3 className="title">{data2[10].title}</h3>
                 </Link>

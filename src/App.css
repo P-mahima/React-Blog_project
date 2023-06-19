@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 /* NavBar CSS */
 
 .navBar {
@@ -16,10 +19,10 @@
 } */
 
 header {
-  background-color: rgba(128, 114, 114, 0.301);
+  background-color: rgba(156, 131, 131, 0.295);
   color: #fff;
   font-size: 30px;
-  width: 90vw;
+  /* width: 90vw; */
   padding: 20px;
   /* position: relative;
   left: 60px; */
@@ -91,7 +94,6 @@ header li a:hover {
 
   header {
       width: 100vw;
-      /* rgba(128, 114, 114, 0.301) */
   }
   .head{
     font-size: 20px;
@@ -140,7 +142,6 @@ header li a:hover {
       display: flex;
       flex-direction: column;
       margin-bottom: 30px;
-
   }
 
   header ul li {
@@ -166,7 +167,7 @@ header li a:hover {
 
 @media screen and (min-width:760px) and (max-width:800px) {
   header {
-    background-color: rgba(128, 114, 114, 0.301);
+    background-color: rgba(156, 131, 131, 0.295);
       color: #fff;
       width: 90vw;
       font-size: 20px;
@@ -284,7 +285,7 @@ header li a:hover {
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  width: 80vw;
+  /* width: 80vw; */
   /* position: relative; */
   /* left: 2.8%; */
 }
@@ -353,6 +354,8 @@ button {
 /* ..................Homepagecss....................... */
 .TOPPOST {
   display: flex;
+  /* justify-content: center; */
+  gap: 20px;
   padding-left: 0px;
 
 }
@@ -366,7 +369,7 @@ button {
   margin-top: 0;
   /* padding-right: 50px; */
   margin-bottom: 0;
-  /* width: 80vw; */
+  /* width: 50vw; */
   /* position: relative; */
   /* left: 2.8%; */
 }
@@ -381,10 +384,14 @@ button {
 }
 .Hhead
 {
+
   font-size: 60px;
   color: black;
-  padding: 20px;
-  padding-left: 70px;
+  /* padding: 20px;
+  padding-left: 70px; */
+  padding:30px;
+ /* width: 50px; */
+  margin:0;
 }
 
 .front {
@@ -402,9 +409,9 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 150px;
+  /* width: 150px; */
   height: 90%;
-  padding-left:20%;
+  /* padding-left:20%; */
 }
 
 .RIGHT {
@@ -426,27 +433,27 @@ button {
 
 .RIGHTIMG {
   border-radius: 20px;
-  width: 600px;
+  width: 750px;
   height: 300px;
   position: absolute;
-  top: 520px;
-  left: 900px;
+  top: 440px;
+  left: 800px;
  
 }
 
 .RIGHTIMG1 {
   border-radius: 20px;
-  width: 600px;
+  width: 750px;
   height: 300px;
   position: absolute;
-  top: 849px;
-  left: 900px;
+  top: 750px;
+  left: 800px;
 
 }
 .para1 {
   position: relative;
   bottom: 480px;
-  left: -240px;
+  left: 10px;
   padding: 10px;
   margin: 0;
   color: rgb(166, 198, 38);
@@ -456,8 +463,8 @@ button {
 
 .para2 {
   position: relative;
-  bottom: 30px;
-  right: -450px;
+  bottom: 50px;
+  left: 80px;
   padding: 10px;
   color: rgb(166, 198, 38);
   font-size: 20px;
@@ -467,15 +474,17 @@ button {
 
 .para3 {
   position: relative;
-  top: 30px;
+  top: 20px;
   /* bottom: 0.1px; */
-  right: -400px;
+  right: 60px;
   padding: 10px;
   margin: 0;
   color: rgb(166, 198, 38);
-  font-size: bold;
-  font-weight: 100;
-  font-size: 10px;
+  /* font-size: bold; */
+  /* font-weight: 100; */
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
 }
 
 
@@ -685,7 +694,7 @@ a {
 
   .LEFTIMG
   {
-    padding-left:240px;
+    padding-left:20px;
     /* margin-left: 10px; */
     width: 550px;
     height: 300px;
@@ -696,7 +705,7 @@ a {
     
     position: absolute;
     right:  200px;
-    top: 750px;
+    top: 600px;
     left: 110px;
     font-size: 15px;
     
