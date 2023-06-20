@@ -11,7 +11,10 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <h1 className='head'><span className='siran'>The</span>  <span >Siren </span> </h1>
+      <div className='headdd' >
+
+      <h1 className='heading'><span>The</span> Siren </h1>
+      </div>
 
       <div className='navBar'>
         <NBar />

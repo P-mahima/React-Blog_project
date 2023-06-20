@@ -32,7 +32,6 @@ function TPost() {
       <div className="sectionTop" >
         <div className="ATop">
           <h1 className="Toppostheading" >Top Post</h1>
-          <hr className="Shortline" />
           {data.map((article, index) => {
 
             if (index < count) {

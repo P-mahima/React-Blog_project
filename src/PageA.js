@@ -30,8 +30,8 @@ function PageA() {
     return (
       <div className="section" >
         <div className="BOXAR">
-          <h1 style={{ textTransform: "capitalize" }}>{params.category}</h1>
-          <hr className="Shortline"></hr>
+          <h1 style={{ textTransform: "capitalize",padding:"20px",textDecoration:"underline", fontSize:"40px" }}>{params.category}</h1>
+        
           {data.map((article, index) => {            
             if (index < count) {
               return (

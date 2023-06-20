@@ -8,7 +8,7 @@ const NBar = () => {
     <>
 
       <header>
-        <div className="headC ">
+        <div className="container ">
           <nav>
             <ul className={navbar ? "navbar" : "flex"} onClick={() => setNavbar(false)}>
 
