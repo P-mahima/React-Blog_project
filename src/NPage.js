@@ -7,7 +7,7 @@ function NPage() {
   return (
 
     <div className='Link'>
-      <img style={{ width: "350px", height: "300px" ,marginTop:"10px "}} src={Loc.urlToImage} alt=""></img>
+      <img className='middleI' src={Loc.urlToImage} alt=""></img>
       <h1 className='newsheading'>
         {Loc.title}
       </h1>

@@ -13,9 +13,9 @@ function LStories(props) {
             <div className="frontPP">
                 
                 <Link to={`/NPage/${data1[94].title}`} state={data1[94]}>
-                    <h3 >{data1[94].title}</h3>
+                    <h3 className='title' >{data1[94].title}</h3>
                 </Link>
-                <p>{data1[94].content}</p>
+                <p >{data1[94].content}</p>
                 <p >{data1[94].publishedAt}</p>
             </div>
             <div className="frontPP">
