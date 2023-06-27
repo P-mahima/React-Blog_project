@@ -7,16 +7,19 @@ function Latest(props) {
     const { data1, data2, data3 } = props.props;
     return (
         <div className="thelatest">
+      
+
             <div className="frontPP">
 
-                <img className="front" src={data1[94].urlToImage} alt="" />
-                {/* <img className="front" src={data1[94].urlToImage} alt="Image Loading" /> */}
-                <Link to={`/NPage/${data1[94].title}`} state={data1[94]}>
-                    <h3 >{data1[94].title}</h3>
+                <img className="front" src={data2[17].urlToImage} alt="" />
+                {/* <img className="front" src={data2[10].urlToImage} alt="Image Loading" /> */}
+                <Link to={`/NPage/${data2[17].title}`} state={data2[17]}>
+                    <h3 className="title">{data2[17].title}</h3>
                 </Link>
-                <p>{data1[94].content}</p>
-                <p >{data1[94].publishedAt}</p>
+                <p>{data2[10].content}</p>
+                <p >{data2[10].publishedAt}</p>
             </div>
+
             <div className="frontPP">
 
                 <img className="front" src={data2[10].urlToImage} alt="" />
