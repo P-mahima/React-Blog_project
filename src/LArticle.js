@@ -2,13 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 
-
-
-
 function LArticle(props) {
 
   const [count, setCount] = useState(7);
-  console.log("Props", props)
   const { data1, data2, data3 } = props.props;
 
   return (

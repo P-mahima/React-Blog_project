@@ -4,7 +4,6 @@ import "./App.css";
 
 
 
-
 function TPHome(props) {
   console.log("Props", props.props)
   const { data1, data2, data3 } = props.props;

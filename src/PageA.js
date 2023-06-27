@@ -37,7 +37,7 @@ function PageA() {
               return (
                 <div className="article1" key={article}>
                   <img className="front" src={article.urlToImage} alt="" />
-                  {/* <img className="front" src={article.urlToImage} alt="Image Loading..." /> */}
+                
 
 
                   <div className="text-content">

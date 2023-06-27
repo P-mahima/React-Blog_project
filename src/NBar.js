@@ -8,6 +8,7 @@ const NBar = () => {
     <>
 
       <header>
+        <div>
         <div className="container ">
           <nav>
             <ul className={navbar ? "navbar" : "flex"} onClick={() => setNavbar(false)}>
@@ -26,6 +27,7 @@ const NBar = () => {
               {navbar ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
             </button>
           </nav>
+        </div>
         </div>
       </header>
 

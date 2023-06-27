@@ -11,6 +11,8 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
+    <div className='row'>
+
       <div className='headdd' >
 
       <h1 className='heading'><span>The</span> Siren </h1>
@@ -19,7 +21,8 @@ function App() {
       <div className='navBar'>
         <NBar />
       </div>
-
+    </div>
+    <hr></hr>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/:category' element={<PageA />} />

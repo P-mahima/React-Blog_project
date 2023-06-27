@@ -32,25 +32,32 @@ function TPost() {
       <div className="sectionTop" >
         <div className="ATop">
           <h1 className="Toppostheading" >Top Post</h1>
-          {data.map((article, index) => {
+          <div className="reversed">
 
+          {data.map((cartoon, index) => {
+            
             if (index < count) {
               return (
                 <div className="article" key={index}>
-                  <img className="front" src={article.urlToImage} alt="" />
-                  {/* <img className="front" src={article.urlToImage} alt="Image Loading..." /> */}
+                  <img className="front" src={cartoon.urlToImage} alt="" />
+            
 
                   <div className="text-content">
-                    <Link to={`/NewPage/${article.title}`} state={{ article }}>
-                      <p className="title">{article.title}</p>
-                    </Link>
-                    <p className="content">{article.content}</p>
-                    <p className="published">{article.publishedAt}</p>
+                  <Link to={`/NPage/${cartoon.title}`} state={cartoon}>
+
+                  <p className="title">{cartoon.title}</p>
+                  </Link>
+                    {/* <Link to={`/NewPage/${cartoon.title}`} state={ cartoon }>
+                      <p className="title">{cartoon.title}</p>
+                    </Link> */}
+                    <p className="content">{cartoon.content}</p>
+                    <p className="published">{cartoon.publishedAt}</p>
                   </div>
                 </div>
               );
             }
           })}
+          </div>
         </div>
 
         <div className="AD">Advertisement</div>
