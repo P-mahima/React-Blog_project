@@ -5,7 +5,7 @@ import images from './images/images.png'
 
 function NPage() {
   const Nav = useNavigate();
-  const Loc = useLocation().state
+  const Location = useLocation().state
   return (
 
     <div className='Link'>
@@ -39,14 +39,14 @@ function NPage() {
 
 
 
-      <img className='middleI' src={Loc.urlToImage} alt=""></img>
+      <img className='middleI' src={Location.urlToImage} alt=""></img>
       <h1 className='newsheading'>
-        {Loc.title}
+        {Location.title}
       </h1>
       <p className='containt'>
-        {Loc.content}
+        {Location.content}
       </p>
-      <p >{Loc.publishedAt}</p>
+      <p >{Location.publishedAt}</p>
       <button
         onClick={() => {
           Nav(-1);
