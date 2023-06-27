@@ -402,6 +402,10 @@ header li a:hover {
   font-weight: bold;
   width: 100px;
 }
+a
+{
+  text-decoration: none;
+}
 /* img
 {
   display: flex;
